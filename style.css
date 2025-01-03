@@ -6,7 +6,7 @@ div{
   height:100px;
   background:blue;
   margin:20px;
-  animation: anim 3ms linear infinite;
+  animation: anim 0ms linear infinite;
   }
 @keyframes anim{
   100%{

@@ -1,20 +1,32 @@
 *{
   margin:2px;
 }
-div{
-  width:100px;
-  height:100px;
-  background:blue;
-  margin:20px;
+body{
+  background-color: lightgray;
+}
+ img{
+  width:300px;
+  height:300px;
+  margin-left:40%;
+  margin-top: 5%;
   animation: anim 0ms linear infinite;
   }
 @keyframes anim{
+  0%{
+    transform: rotate(180deg);
+  }
   100%{
     transform:rotate(360deg);
   }
-p{
+}
+div{
+  margin-left: 35rem;
+}
+button{
   width:50px;
   height:50px;
+  font-size: 30px;
+  font-weight: bold;
   background:red;
   position:relative;
   top:20px;
